@@ -37,12 +37,14 @@ in a way that’s clean enough for a portfolio / resume project.
    git clone https://github.com/Wayne328x/ai-cartpole-rl.git
    cd ai-cartpole-rl
 2.	Create and activate a Python virtual environment:
+  ```bash
   python3 -m venv .venv
   source .venv/bin/activate          # macOS / Linux
   .venv\\Scripts\\activate           # Windows PowerShell
-3.	Install dependencies:
-    pip install --upgrade pip
-    pip install -r requirements.txt
+4.	Install dependencies:
+  ```bash
+  pip install --upgrade pip
+  pip install -r requirements.txt
 ---
 
 # 🧪 Environment Test (Random Agent)
@@ -76,7 +78,7 @@ To monitor reward curves and learning progress:
 
 ```bash
 tensorboard --logdir tb_logs
-
+```
 ## 📂 Project Structure
 
 ```text
